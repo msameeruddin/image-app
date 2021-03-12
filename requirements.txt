@@ -1,0 +1,10 @@
+dash
+plotly
+dash-core-components
+dash-html-components
+dash-daq
+numpy
+matplotlib
+pandas
+opencv-contrib-python-headless
+gunicorn
