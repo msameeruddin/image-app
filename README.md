@@ -24,4 +24,4 @@ and transformations like -
 * Toggle switch for converting the image into grayscale.
 * The required output will be displayed in the output (side) window.
 
-For sure additional operations and transformation will be added. You can checkout the app [here](https://process-image-app.herokuapp.com/)
+For sure additional operations and transformation will be added. You can checkout the app [here](https://process-image-app.herokuapp.com/).
