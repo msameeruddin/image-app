@@ -111,7 +111,7 @@ app.layout = html.Div([
                                 dcc.Input(id='morph-level', type='number', placeholder='Enter Morph Level - ', value=3),
                                 html.Div([
                                     dcc.RadioItems(
-                                        id='in-trasformation', 
+                                        id='in-transformation', 
                                         options=[{'label' : tr, 'value' : tr.lower()} for tr in image_morphs],
                                         value='none'
                                     ),
@@ -213,7 +213,7 @@ def get_operated_image(contents, image_mode, operation, filenames, dates):
     [
         Input('upload-image', 'contents'), 
         Input('morph-level', 'value'), 
-        Input('in-trasformation', 'value'),
+        Input('in-transformation', 'value'),
         # -------
         State('upload-image', 'filename'), 
         State('upload-image', 'last_modified'), 
@@ -257,5 +257,5 @@ def get_transformed_image(contents, level, transformation, filenames, dates):
         return output_result
 
 
-if __name__ == '__main__':
-    app.run_server(debug=True)
+# if __name__ == '__main__':
+#     app.run_server(debug=True)
