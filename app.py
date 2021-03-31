@@ -144,7 +144,11 @@ def set_output_layout(which_tab):
             html.Div( 
                 children= [
                     html.H5('Image Used - Output'),
-                    html.Div(id='output-image-op'),
+                    dcc.Loading(
+                        id='loading-op',
+                        type='dot',
+                        children=html.Div(id='output-image-op')
+                    )
                 ],
                 style={'textAlign' : 'center', 'paddingTop' : 50}
             )
@@ -154,7 +158,11 @@ def set_output_layout(which_tab):
             html.Div( 
                 children= [
                     html.H5('Image Used - Output'),
-                    html.Div(id='output-image-morph'),
+                    dcc.Loading(
+                        id='loading-morph',
+                        type='dot',
+                        children=html.Div(id='output-image-morph')
+                    )
                 ],
                 style={'textAlign' : 'center', 'paddingTop' : 50}
             )
