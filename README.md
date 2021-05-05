@@ -22,7 +22,7 @@ and transformations like -
 
 ### Features
 
-* User can uplod the image file director from his/her local folder.
+* User can upload the image file director from his/her local folder.
 * Toggle switch for converting the image into grayscale.
 * The required output will be displayed in the output (side) window.
 
